@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 55px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black
+}
+
+a {
+    margin-right: 15px;
+}
+
+header {
+    background-color: rgb(241, 235, 235);
+
+}
+
+
+.container {
+    background-color: #e5e5fd;
+    min-height: 650px;
+    border: 2px solid black;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.content1 {
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+h3 {
+    margin-top: 5px;
+    text-align: end;
+}
+
+p{
+    font-size: 19px;
+}
+img {
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+
+.section2 {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+
+.biographics {
+    background-color: #e5e5fd;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+li{
+    font-size: 19px;
+}
+
+.biographics ul li {
+    margin-left: 29px;
+    margin-top: 9px;
+}
+
+
+
+footer{
+    padding: 15px;
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+button{
+    background-color: rgb(236, 180, 180);
+    color: white;
+    border-radius: 10px;
+    border: transparent solid 2px;
+    padding: 6px 20px;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
